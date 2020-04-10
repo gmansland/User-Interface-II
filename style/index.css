@@ -54,14 +54,45 @@ nav a:hover {
     background-color: black;
     color: white;
 }
-
 .mainimage {
     width: 100%;
 }
-
 .subimage {
     width: 15%;
     height: 300px; 
 }
+/*media queries start here*/
+/*tablet*/
+@media(max-width: 800px){
+    h1{
+        font-size:50px;
+    }
+    .subimage{
+        width: 15%;
+        height: 175px;
+    }
+    .head p{
+        font-size:80%;
+    }
+    .bottom p{
+        font-size:80%;
+    }
+}
 
-
+/*media queries start here*/
+/*tablet*/
+@media(max-width: 500px){
+    h1{
+        font-size:30px;
+    }
+    .subimage{
+        Width: 10%;
+        height: 80px;
+    }
+    .head p{
+        font-size:60%;
+    }
+    .bottom p{
+        font-size:60%;
+    }
+}
